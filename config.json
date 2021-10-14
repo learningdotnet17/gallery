@@ -1,65 +1,25 @@
 {
   "landscape photography": [
     {
-      "height": 1632,
-      "compressed_path": "./photos/landscape photography/20211007-DSC00393-Edit@0.33x.min.jpg",
-      "width": 1305,
+      "height": 1500,
+      "compressed_path": "./photos/landscape photography/20210725-DSC09878-Edit.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/landscape photography/20211007-DSC00393-Edit@0.33x.placeholder.jpg",
-      "path": "./photos/landscape photography/20211007-DSC00393-Edit@0.33x.jpg"
+      "placeholder_path": "./photos/landscape photography/20210725-DSC09878-Edit.placeholder.jpg",
+      "path": "./photos/landscape photography/20210725-DSC09878-Edit.jpg"
     },
     {
-      "height": 1352,
-      "compressed_path": "./photos/landscape photography/20210919-DSC00382-Edit@0.33x.min.jpg",
-      "width": 2013,
+      "height": 1500,
+      "compressed_path": "./photos/landscape photography/20210919-DSC09618-Edit.min.jpg",
+      "width": 1200,
       "compressed": false,
-      "placeholder_path": "./photos/landscape photography/20210919-DSC00382-Edit@0.33x.placeholder.jpg",
-      "path": "./photos/landscape photography/20210919-DSC00382-Edit@0.33x.jpg"
+      "placeholder_path": "./photos/landscape photography/20210919-DSC09618-Edit.placeholder.jpg",
+      "path": "./photos/landscape photography/20210919-DSC09618-Edit.jpg"
     },
     {
-      "height": 2006,
-      "compressed_path": "./photos/landscape photography/20211007-DSC09756-Edit@0.33x.min.jpg",
-      "width": 1611,
-      "compressed": false,
-      "placeholder_path": "./photos/landscape photography/20211007-DSC09756-Edit@0.33x.placeholder.jpg",
-      "path": "./photos/landscape photography/20211007-DSC09756-Edit@0.33x.jpg"
-    },
-    {
-      "height": 1950,
-      "compressed_path": "./photos/landscape photography/20210919-DSC09647@0.5x.min.jpg",
-      "width": 1570,
-      "compressed": false,
-      "placeholder_path": "./photos/landscape photography/20210919-DSC09647@0.5x.placeholder.jpg",
-      "path": "./photos/landscape photography/20210919-DSC09647@0.5x.jpg"
-    },
-    {
-      "height": 3727,
-      "compressed_path": "./photos/landscape photography/IMG_6126-Edit.min.jpg",
-      "width": 2992,
-      "compressed": false,
-      "placeholder_path": "./photos/landscape photography/IMG_6126-Edit.placeholder.jpg",
-      "path": "./photos/landscape photography/IMG_6126-Edit.jpg"
-    },
-    {
-      "height": 1600,
-      "compressed_path": "./photos/landscape photography/20211007-DSC00398-Edit@0.33x.min.jpg",
-      "width": 1279,
-      "compressed": false,
-      "placeholder_path": "./photos/landscape photography/20211007-DSC00398-Edit@0.33x.placeholder.jpg",
-      "path": "./photos/landscape photography/20211007-DSC00398-Edit@0.33x.jpg"
-    },
-    {
-      "height": 2162,
-      "compressed_path": "./photos/landscape photography/20210919-DSC09618-Edit@0.33x.min.jpg",
-      "width": 1736,
-      "compressed": false,
-      "placeholder_path": "./photos/landscape photography/20210919-DSC09618-Edit@0.33x.placeholder.jpg",
-      "path": "./photos/landscape photography/20210919-DSC09618-Edit@0.33x.jpg"
-    },
-    {
-      "height": 2638,
+      "height": 995,
       "compressed_path": "./photos/landscape photography/20210917-DSC09560-Edit.min.jpg",
-      "width": 3976,
+      "width": 1500,
       "compressed": false,
       "placeholder_path": "./photos/landscape photography/20210917-DSC09560-Edit.placeholder.jpg",
       "path": "./photos/landscape photography/20210917-DSC09560-Edit.jpg"
