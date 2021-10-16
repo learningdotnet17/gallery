@@ -5,17 +5,22 @@
   <head>
     <title>{{ site.title }}</title>
     {% include favicon.html %}
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/zoom.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/css/lightgallery-bundle.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
     <script src="https://use.fontawesome.com/4c9066f1a6.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/lightgallery.umd.min.js"></script>
   </head>
   <body>
     <div id="container">
-      <!--------------- YOUR NAME OVER HERE -------------->
       <h2 class="header">{{ site.full_name }}</h2>
-      <div id="gallery">
+      <h3>Landscape Photography</h3>
+        <div id="lightgallery">
+          {% for item in site.data.photos %}
+            <a class="gallery-item" data-src="{{ item.large_photo }}" data-sub-html="{{ item.desc }}">
+              <img class="gallery-img" alt="{{ item.desc }}" src="{{ item.large_photo }}" style="{{ item.width-height }}" />
+            </a>
+          {% endfor %}
       </div>
     </div>
     <div class="footer">
@@ -27,32 +32,12 @@
       </div>
     </div>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.js"
-    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
-  <script src="js/transition.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/zoom-vanilla.js/dist/zoom-vanilla.min.js"></script>
-  <script src="js/gallery.js"></script>
   <script>
-    var COLUMNS = 'columns';
-    var ROWS = 'rows';
-    var SQUARES = 'squares';
-
-    var columns = COLUMNS;
-    var rows = ROWS;
-    var squares = SQUARES;
-
-    var layoutStyle = {{ site.layout_style }};
-
-    var configuration = {
-      spacing: {{ site.spacing }},
-      shuffle: {{ site.shuffle }},
-      columns: {{ site.columns }},
-      maxHeight: {{ site.max_height }}
-    };
+    lightGallery(document.getElementById('lightgallery'), {
+        speed: 500,
+        download: false,
+        licenseKey: '236F25D5-F52B4FAC-9AA3E37D-5BADEF61'
+    });
   </script>
-  <script src="js/script.js"></script>
   {% include ga.html %}
 </html>

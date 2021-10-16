@@ -4,8 +4,8 @@ body {
 
 #container {
   margin: 0 auto;
-  max-width: 1000px;
-  width: 90%;
+  max-width: 1200px;
+  width: 95%;
 }
 
 .header {
@@ -79,4 +79,25 @@ h3 {
   font-weight: 500;
   letter-spacing: 2px;
   line-height: 18px;
+}
+
+.gallery-item {
+  width: 200px;
+}
+
+.gallery-img {
+  padding: 5px;
+}
+
+.gallery-img-border {
+  background:transparent;
+  padding:8px;
+  border:1px solid #999999;
+}
+
+.gallery-img-shadow {
+  background:transparent;
+  border:1px solid #ccc;
+  box-shadow:5px 5px 5px #999;
+  padding: 15px;
 }
