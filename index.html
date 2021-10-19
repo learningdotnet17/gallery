@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
     <script src="https://use.fontawesome.com/4c9066f1a6.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/lightgallery.umd.min.js"></script>
-  </head>
+    <!-- lightgallery plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/plugins/zoom/lg-zoom.umd.js"></script>  </head>
   <body>
     <div id="container">
       <h2 class="header">{{ site.full_name }}</h2>
@@ -34,6 +36,7 @@
   </body>
   <script>
     lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom, lgThumbnail],
         speed: 500,
         download: false,
         licenseKey: '236F25D5-F52B4FAC-9AA3E37D-5BADEF61'
