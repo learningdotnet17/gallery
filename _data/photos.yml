@@ -1,22 +1,30 @@
-- large_photo: "photos/landscape photography/20211007-DSC09770-Edit.jpg"
+- large_photo: "photos/landscape photography/NY_No_Frame.jpg"
   width-height: "width: 326px;height:216px;"
-  desc: "Foggy Vermont morning"
+  desc: "Old Pier, NY"
 
 - large_photo: "photos/landscape photography/20211012-DSC00584-Edit.jpg"
   width-height: "width: 326px;height:216px;"
   desc: "'Stay Away' - AM Foster covered bridge in Vermont"
 
+- large_photo: "photos/landscape photography/DSC01682-Edit.jpg"
+  width-height: "width: 326px;height:216px;"
+  desc: "Sunset at Hopi Point, Grand Canyon"
+
+- large_photo: "photos/landscape photography/20170424-IMG_7739-Edit.jpg"
+  width-height: "width: 326px;height:216px;"
+  desc: "Boat at Bug Lighthouse, Maine"
+
+- large_photo: "photos/landscape photography/20211007-DSC09770-Edit.jpg"
+  width-height: "width: 326px;height:216px;"
+  desc: "Foggy Vermont morning"
+
 - large_photo: "photos/landscape photography/20210919-DSC09618-Edit.jpg"
   width-height: "width: 224px;height:280px;"
   desc: "'Found Luna' - Full Moon at Point Judith Light"
 
-- large_photo: "photos/landscape photography/20170424-IMG_7739-Edit.jpg"
-  width-height: "width: 326px;height:216px;"
-  desc: "Boat at Bug Light"
-
 - large_photo: "photos/landscape photography/20211007-DSC00483-Edit.jpg"
   width-height: "width: 326px;height:216px;"
-  desc: "Foliage at Vermont Farm"
+  desc: "Foliage at a Vermont Farm"
 
 - large_photo: "photos/landscape photography/20210725-DSC09878-Edit.jpg"
   width-height: "width: 224px;height:280px;"
@@ -32,7 +40,7 @@
 
 - large_photo: "photos/landscape photography/20170424-IMG_7770-Edit.jpg"
   width-height: "width: 326px;height:216px;"
-  desc: "Bug Lighthouse, Maine"
+  desc: "Bug Lighthouse Sunset, Maine"
 
 - large_photo: "photos/landscape photography/20160807-IMG_8544.jpg"
   width-height: "width: 326px;height:216px;"
@@ -40,16 +48,8 @@
 
 - large_photo: "photos/landscape photography/20211031-DSC00628-Edit.jpg"
   width-height: "width: 326px;height:216px;"
-  desc: "Castle Hill Lighthouse, Rhode Island"
+  desc: "Long Pond Sunset"
 
 - large_photo: "photos/landscape photography/IMG_6996-Edit-2.jpg"
   width-height: "width: 326px;height:162px;"
-  desc: "Castle Hill Lighthouse, Rhode Island"
-
-- large_photo: "photos/landscape photography/DSC01682-Edit.jpg"
-  width-height: "width: 326px;height:216px;"
-  desc: "Castle Hill Lighthouse, Rhode Island"
-
-- large_photo: "photos/landscape photography/NY_No_Frame.jpg"
-  width-height: "width: 326px;height:216px;"
-  desc: "Castle Hill Lighthouse, Rhode Island"
+  desc: "Fan Pier Park, Boston"
