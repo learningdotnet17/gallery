@@ -1,46 +1,56 @@
 ---
+title: "Brijesh Chawla"
+layout: default
+description: "Photography by Brijesh Chawla. All photos are taken by me. Use only by permission."
 ---
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title>{{ site.title }}</title>
-    {% include favicon.html %}
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/css/lightgallery-bundle.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-    <script src="https://use.fontawesome.com/4c9066f1a6.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/lightgallery.umd.min.js"></script>
-    <!-- lightgallery plugins -->
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/plugins/thumbnail/lg-thumbnail.umd.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.2.1/plugins/zoom/lg-zoom.umd.js"></script>  </head>
-  <body>
-    <div id="container">
-      <h2 class="header">{{ site.full_name }}</h2>
-      <h3>Landscape Photography</h3>
-        <div id="lightgallery">
-          {% for item in site.data.photos %}
-            <a class="gallery-item" data-src="{{ item.large_photo }}" data-sub-html="{{ item.desc }}">
-              <img class="gallery-img" alt="{{ item.desc }}" src="{{ item.large_photo }}" style="{{ item.width-height }}" />
-            </a>
+
+<section class="mt-4 mb-5">
+    
+    <div class="container mb-4">
+        <h1 class="font-weight-bold title">Brijesh Chawla Photography</h1>    
+        <div class="row">
+        {% include menu-categories.html %}
+        </div>
+    </div>
+
+    
+<div class="container-fluid">
+    
+    <div class="card-columns">        
+        {% for post in paginator.posts reversed %}
+            {% include card-post.html %}
+        {% endfor %}            
+    </div>
+
+    <div class="row justify-content-center mt-5">
+     <!-- Pagination links -->
+        {% if paginator.total_pages > 1 %}
+        <div class="pagination"> 
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+          {% else %}
+            <span class="prev">&laquo; Prev</span>
+          {% endif %}
+
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <span class="webjeda">{{ page }}</span>
+            {% elsif page == 1 %}
+              <a href="{{site.baseurl}}/">{{ page }}</a>
+            {% else %}
+              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+            {% endif %}
           {% endfor %}
-      </div>
+
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+          {% else %}
+            <span class="next">Next &raquo;</span>
+          {% endif %}
+        </div>
+        {% endif %}      
     </div>
-    <div class="footer">
-      <div class="links">
-        <a id="instagram" class="links__icon" href="https://www.instagram.com/{{ site.instagram }}">
-          <span class="view-ig"> View my Instagram </span>
-          <i class="fa fa-instagram fa-lg"></i>
-        </a>
-      </div>
-    </div>
-  </body>
-  <script>
-    lightGallery(document.getElementById('lightgallery'), {
-        plugins: [lgZoom, lgThumbnail],
-        speed: 500,
-        download: false,
-        licenseKey: '236F25D5-F52B4FAC-9AA3E37D-5BADEF61'
-    });
-  </script>
-  {% include ga.html %}
-</html>
+
+</div>    
+  
+</section>
