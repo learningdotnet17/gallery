@@ -5,7 +5,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 avatar: 'assets/images/sal.jpg'
-disqus: 'demowebsite'
+disqus: 'brijeshchawla-com'
 email: 'bc01886@gmail.com'
 
 include: ["_pages"]
