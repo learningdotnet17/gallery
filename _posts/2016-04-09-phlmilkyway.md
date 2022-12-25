@@ -1,7 +1,7 @@
 ---
 title:  "Milky Way at Portland Head Lighthouse"
 metadate: "Canon 6D"
-categories: [ nightscape, lighthouse, maine ]
+categories: [ night, lighthouse ]
 image: "/assets/images/20160409-IMG_6952-Edit-3.jpg"
 visit: 
 ---
