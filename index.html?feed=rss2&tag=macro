@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Macro &#8211; Photos © Brijesh Chawla</title>
+	<atom:link href="http://192.168.0.240/?feed=rss2&#038;tag=macro" rel="self" type="application/rss+xml" />
+	<link>http://192.168.0.240:32768</link>
+	<description></description>
+	<lastBuildDate>Sat, 08 Jun 2024 02:33:12 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>Pink Lady Apple</title>
+		<link>http://192.168.0.240:32768/?p=425</link>
+		
+		<dc:creator><![CDATA[brijesh]]></dc:creator>
+		<pubDate>Thu, 06 Jun 2024 02:56:40 +0000</pubDate>
+				<category><![CDATA[Gallery]]></category>
+		<category><![CDATA[Macro]]></category>
+		<guid isPermaLink="false">http://192.168.0.240:32768/?p=425</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">425</post-id>	</item>
+		<item>
+		<title>Rhodo Island</title>
+		<link>http://192.168.0.240:32768/?p=400</link>
+					<comments>http://192.168.0.240:32768/?p=400#respond</comments>
+		
+		<dc:creator><![CDATA[brijesh]]></dc:creator>
+		<pubDate>Thu, 06 Jun 2024 02:45:24 +0000</pubDate>
+				<category><![CDATA[Gallery]]></category>
+		<category><![CDATA[Macro]]></category>
+		<guid isPermaLink="false">http://192.168.0.240:32768/?p=400</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>http://192.168.0.240:32768/?feed=rss2&#038;p=400</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">400</post-id>	</item>
+	</channel>
+</rss>
